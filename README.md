@@ -1,4 +1,4 @@
-# Sistema - Gestão de cadastro Médico
+<h1 align="center"> Sistema - Gestão de cadastro Médico </h2>
 
 ### Desenvolvimento de um sistema que faça a gestão de cadastros de médicos. O Sistema deve suportar as seguintes operações:
 
