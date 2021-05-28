@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "port": 5432,
+  "host": "192.168.99.100",
+  "username": "medic",
+  "password": "docker",
+  "database": "medic_register",
+  "migrations": [
+      "./src/database/migrations/*.ts"
+  ],
+  "entities":[
+      "./src/database/**/entities/*.ts"
+  ],
+  "cli": {
+      "migrationsDir": "./src/database/migrations"
+  }
+}
